@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(34, 33, 33);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#top{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+}
+/* .com{
+    color: white;
+    ;    
+} */
+#logo{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 17%;
+    display: flex;
+
+   
+}
+#bar{
+    /* border: 1px solid red; */
+    color: white;
+    height: 50px;
+    width: 40px;  
+    margin-left: 10px; 
+}
+.bars{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+#ylogo{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 170px;
+    margin-left: 10px;
+}
+#ylogo>img{
+    height: 50px;
+    width: 160px;
+    cursor: pointer ;
+}
+#search{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 55%;
+    margin-left: 60px;
+    display: flex;
+}
+#inp{
+    height: 50px;
+    width: 80%;
+
+    
+    
+}
+#srch{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border: 1px solid gray ;
+}
+#srch_logo{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 80px;
+    /* margin-top: 1px; */
+    margin-left: 5px;
+    background-color: rgb(73, 72, 72);
+}
+.glass{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#option{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 24%;
+    margin-left: 10px;
+    display: flex;
+}
+#mike{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 7px;
+    margin-left: 5px;
+    cursor: pointer;
+
+    background-color: black;
+}
+.mic{
+    color: white;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 9px;
+}
+.nav{
+    color: white;
+    margin-top: 7px;
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+#pic{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+#pic>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#final_result{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    grid-template-rows: auto;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+div>p{
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+img{
+    height: 90%;
+    width: 100%;
+    cursor: pointer;
+   
+}
+
+
+
+
